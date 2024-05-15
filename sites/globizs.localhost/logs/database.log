@@ -2671,3 +2671,21 @@ ALTER TABLE `tabGlobizs Transaction` MODIFY `progress` varchar(140)
 ALTER TABLE `tabTask` ADD COLUMN `published` tinyint NOT NULL DEFAULT 0
 2024-04-10 00:23:37,669 WARNING database DDL Query made to DB:
 ALTER TABLE `tabTask` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2024-05-15 10:50:44,040 WARNING database DDL Query made to DB:
+create table `tabchatbox` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
