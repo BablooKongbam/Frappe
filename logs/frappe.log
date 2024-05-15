@@ -1,0 +1,24 @@
+2024-04-09 22:39:29,576 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GT00001","owner":"Administrator","creation":"2024-04-09 22:07:31.588170","modified":"2024-04-09 22:07:31.588170","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"task":"Task Management App","employee":"E00001","status":"New","start_date":"2024-04-18 22:06:17","due_date":"2024-04-25 22:06:17","doctype":"Globizs Transaction","__last_sync_on":"2024-04-09T16:37:31.639Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 22:44:16,371 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GT00001","owner":"Administrator","creation":"2024-04-09 22:07:31.588170","modified":"2024-04-09 22:07:31.588170","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"task":"Task Management App","employee":"E00001","status":"New","start_date":"2024-04-18 22:06:17","due_date":"2024-04-25 22:06:17","doctype":"Globizs Transaction","__last_sync_on":"2024-04-09T16:37:31.639Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 22:48:07,241 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GM00002","owner":"Administrator","creation":"2024-04-09 22:48:02.627534","modified":"2024-04-09 22:48:02.627534","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"employee":"E00002","full_name":"Rohit Hidam","start_date":"2024-04-01 10:00:00","due_date":"2024-04-08 21:40:35","done":1,"doctype":"Globizs Membership","__last_sync_on":"2024-04-09T17:18:02.665Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 23:04:19,283 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GM00001","owner":"Administrator","creation":"2024-04-09 23:02:54.441252","modified":"2024-04-09 23:02:54.441252","modified_by":"Administrator","docstatus":0,"idx":0,"employee":"E00001","full_name":"Santa  Mayanglambam","start_date":"2024-04-20 10:00:00","due_date":"2024-04-23 21:40:35","done":1,"doctype":"Globizs Membership"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 23:11:30,193 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GM00001","owner":"Administrator","creation":"2024-04-09 23:11:21.313542","modified":"2024-04-09 23:11:21.313542","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"employee":"E00001","full_name":"Santa  Mayanglambam","from_date":"2024-04-01","to_date":"2024-04-10","done":1,"doctype":"Globizs Membership","__last_sync_on":"2024-04-09T17:41:21.353Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 23:23:28,531 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GT00001","owner":"Administrator","creation":"2024-04-09 23:23:14.433502","modified":"2024-04-09 23:23:14.433502","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"task":"CCTV Awareness","employee":"E00004","date":"2024-04-27","status":"New","doctype":"Globizs Transaction","__last_sync_on":"2024-04-09T17:53:14.499Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 23:28:33,373 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GT00001","owner":"Administrator","creation":"2024-04-09 23:28:29.949219","modified":"2024-04-09 23:28:29.949219","modified_by":"Administrator","docstatus":0,"idx":0,"amended_from":null,"task":"CCTV Awareness","employee":"E00001","date":"2024-04-24","progress":"New","doctype":"Globizs Transaction","__last_sync_on":"2024-04-09T17:58:29.994Z"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-04-09 23:49:25,559 ERROR frappe New Exception collected in error log
+Site: globizs.localhost
+Form Dict: {'doc': '{"name":"GT00001","owner":"Administrator","creation":"2024-04-09 23:28:29.949219","modified":"2024-04-09 23:49:21.458365","modified_by":"Administrator","docstatus":0,"idx":0,"task":"CCTV Awareness","employee":"E00001","date":"2024-04-26","progress":"Started","doctype":"Globizs Transaction"}', 'action': 'Submit', 'cmd': 'frappe.desk.form.save.savedocs'}

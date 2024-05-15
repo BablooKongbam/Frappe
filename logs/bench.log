@@ -1,0 +1,130 @@
+2024-04-09 19:41:30,445 DEBUG cd globizs-bench && python3.11 -m venv env
+2024-04-09 19:41:32,821 DEBUG cd globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-04-09 19:41:35,852 DEBUG cd globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet wheel
+2024-04-09 19:41:53,554 LOG Getting frappe
+2024-04-09 19:41:53,554 DEBUG cd globizs-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-04-09 19:42:01,028 LOG Installing frappe
+2024-04-09 19:42:01,029 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade -e /home/babloo/globizs-bench/apps/frappe 
+2024-04-09 19:43:24,494 DEBUG cd /home/babloo/globizs-bench/apps/frappe && yarn install --check-files
+2024-04-09 19:43:28,056 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-09 19:43:28,057 DEBUG cd globizs-bench && bench build
+2024-04-09 19:43:28,139 INFO /usr/local/bin/bench build
+2024-04-09 19:45:56,608 LOG setting up backups
+2024-04-09 19:45:56,623 LOG backups were set up
+2024-04-09 19:45:56,623 INFO Bench globizs-bench initialized
+2024-04-09 19:46:42,660 INFO /usr/local/bin/bench start
+2024-04-09 19:46:42,841 INFO /usr/local/bin/bench worker
+2024-04-09 19:46:42,844 INFO /usr/local/bin/bench watch
+2024-04-09 19:46:42,845 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 19:46:42,856 INFO /usr/local/bin/bench schedule
+2024-04-09 19:48:03,746 INFO /usr/local/bin/bench find .
+2024-04-09 19:49:24,677 INFO /usr/local/bin/bench new-app globizs_management
+2024-04-09 19:49:24,680 LOG creating new app globizs_management
+2024-04-09 19:50:43,130 LOG Installing globizs_management
+2024-04-09 19:50:43,131 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade -e /home/babloo/globizs-bench/apps/globizs_management 
+2024-04-09 19:51:00,490 DEBUG bench build --app globizs_management
+2024-04-09 19:51:00,558 INFO /usr/local/bin/bench build --app globizs_management
+2024-04-09 19:51:01,556 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-09 19:52:40,468 INFO /usr/local/bin/bench remove-app globizs_management
+2024-04-09 19:52:40,541 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-04-09 19:52:40,728 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip uninstall -y globizs_management
+2024-04-09 19:52:41,064 INFO App moved from apps/globizs_management to archived/apps/globizs_management-2024-04-09
+2024-04-09 19:52:41,066 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-09 19:52:50,374 INFO /usr/local/bin/bench update
+2024-04-09 19:52:51,674 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2024-04-09 19:53:01,708 DEBUG cd /home/babloo/globizs-bench/apps/frappe && git fetch upstream --unshallow
+2024-04-09 19:55:09,920 LOG pulling frappe
+2024-04-09 19:55:09,920 DEBUG cd /home/babloo/globizs-bench/apps/frappe && git pull  upstream develop
+2024-04-09 19:55:11,006 DEBUG cd /home/babloo/globizs-bench/apps/frappe && find . -name "*.pyc" -delete
+2024-04-09 19:55:11,051 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-04-09 19:55:14,196 LOG Installing frappe
+2024-04-09 19:55:14,197 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade -e /home/babloo/globizs-bench/apps/frappe 
+2024-04-09 19:55:19,888 DEBUG cd /home/babloo/globizs-bench/apps/frappe && yarn install --check-files
+2024-04-09 19:55:53,937 INFO /usr/local/bin/bench start
+2024-04-09 19:55:54,159 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 19:55:54,162 INFO /usr/local/bin/bench watch
+2024-04-09 19:55:54,189 INFO /usr/local/bin/bench worker
+2024-04-09 19:55:54,191 INFO /usr/local/bin/bench schedule
+2024-04-09 19:56:06,307 INFO /usr/local/bin/bench new-app globizs_management
+2024-04-09 19:56:06,311 LOG creating new app globizs_management
+2024-04-09 19:57:05,310 LOG Installing globizs_management
+2024-04-09 19:57:05,310 DEBUG cd /home/babloo/globizs-bench && /home/babloo/globizs-bench/env/bin/python -m pip install --quiet --upgrade -e /home/babloo/globizs-bench/apps/globizs_management 
+2024-04-09 19:57:24,813 DEBUG bench build --app globizs_management
+2024-04-09 19:57:24,883 INFO /usr/local/bin/bench build --app globizs_management
+2024-04-09 19:57:26,148 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-09 19:58:40,742 INFO /usr/local/bin/bench new-site globizs.localhost
+2024-04-09 20:00:48,145 INFO /usr/local/bin/bench --site globizs.localhost add-to-hosts
+2024-04-09 20:01:24,667 INFO /usr/local/bin/bench start
+2024-04-09 20:01:24,854 INFO /usr/local/bin/bench watch
+2024-04-09 20:01:24,860 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 20:01:24,879 INFO /usr/local/bin/bench worker
+2024-04-09 20:01:24,901 INFO /usr/local/bin/bench schedule
+2024-04-09 20:05:38,271 INFO /usr/local/bin/bench --site globizs.localhost install-app globizs_management
+2024-04-09 20:06:14,807 INFO /usr/local/bin/bench --site globizs.localhost List-apps
+2024-04-09 20:06:41,960 INFO /usr/local/bin/bench --site globizs.localhost list-apps
+2024-04-09 20:07:17,901 INFO /usr/local/bin/bench --site globizs.localhost console
+2024-04-09 20:07:53,831 INFO /usr/local/bin/bench --site globizs.localhost mariadb
+2024-04-09 20:08:38,145 INFO /usr/local/bin/bench --site globizs.localhost mariadb
+2024-04-09 20:09:33,019 INFO /usr/local/bin/bench --site globizs.localhost backup
+2024-04-09 20:09:53,705 INFO /usr/local/bin/bench help
+2024-04-09 20:09:59,775 INFO /usr/local/bin/bench --help
+2024-04-09 20:10:40,069 INFO /usr/local/bin/bench set-config -g developer_mode true
+2024-04-09 20:10:57,983 INFO /usr/local/bin/bench start
+2024-04-09 20:10:58,155 INFO /usr/local/bin/bench schedule
+2024-04-09 20:10:58,159 INFO /usr/local/bin/bench watch
+2024-04-09 20:10:58,186 INFO /usr/local/bin/bench worker
+2024-04-09 20:10:58,194 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 21:01:57,450 INFO /usr/local/bin/bench --site globizs.localhost mariadb
+2024-04-09 21:05:26,663 INFO /usr/local/bin/bench start
+2024-04-09 21:05:26,912 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 21:05:26,923 INFO /usr/local/bin/bench schedule
+2024-04-09 21:05:26,951 INFO /usr/local/bin/bench worker
+2024-04-09 21:05:26,961 INFO /usr/local/bin/bench watch
+2024-04-09 21:07:52,476 INFO /usr/local/bin/bench --site globizs.localhost mariadb
+2024-04-09 21:15:15,889 INFO /usr/local/bin/bench --site globizs.localhost mariadb
+2024-04-09 23:08:25,525 INFO /usr/local/bin/bench start
+2024-04-09 23:08:25,785 INFO /usr/local/bin/bench schedule
+2024-04-09 23:08:25,785 INFO /usr/local/bin/bench worker
+2024-04-09 23:08:25,806 INFO /usr/local/bin/bench serve --port 8002
+2024-04-09 23:08:25,810 INFO /usr/local/bin/bench watch
+2024-04-10 00:00:01,783 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-10 08:07:03,991 INFO /usr/local/bin/bench start
+2024-04-10 08:07:04,291 INFO /usr/local/bin/bench worker
+2024-04-10 08:07:04,304 INFO /usr/local/bin/bench serve --port 8002
+2024-04-10 08:07:04,307 INFO /usr/local/bin/bench watch
+2024-04-10 08:07:04,317 INFO /usr/local/bin/bench schedule
+2024-04-10 08:30:30,208 INFO /usr/local/bin/bench start
+2024-04-10 08:30:42,114 INFO /usr/local/bin/bench start
+2024-04-10 12:00:01,448 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-10 16:19:46,969 INFO /usr/local/bin/bench start
+2024-04-10 16:21:44,824 INFO /usr/local/bin/bench start
+2024-04-10 16:24:31,198 INFO /usr/local/bin/bench start
+2024-04-10 16:24:31,392 INFO /usr/local/bin/bench schedule
+2024-04-10 16:24:31,395 INFO /usr/local/bin/bench serve --port 8002
+2024-04-10 16:24:31,419 INFO /usr/local/bin/bench watch
+2024-04-10 16:24:31,420 INFO /usr/local/bin/bench worker
+2024-04-10 18:00:01,422 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-11 00:00:01,756 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-12 00:00:01,146 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-13 18:00:01,840 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-14 00:00:02,030 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-14 06:00:01,640 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-08 12:00:02,098 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-08 18:00:01,494 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-14 18:00:01,343 INFO /usr/local/bin/bench --verbose --site all backup
+2024-05-15 06:31:31,340 INFO /usr/local/bin/bench start
+2024-05-15 06:31:31,518 INFO /usr/local/bin/bench worker
+2024-05-15 06:31:31,519 INFO /usr/local/bin/bench schedule
+2024-05-15 06:31:31,549 INFO /usr/local/bin/bench watch
+2024-05-15 06:31:31,551 INFO /usr/local/bin/bench serve --port 8002
+2024-05-15 10:09:09,088 INFO /usr/local/bin/bench start
+2024-05-15 10:09:09,263 INFO /usr/local/bin/bench watch
+2024-05-15 10:09:09,264 INFO /usr/local/bin/bench schedule
+2024-05-15 10:09:09,264 INFO /usr/local/bin/bench worker
+2024-05-15 10:09:09,275 INFO /usr/local/bin/bench serve --port 8002

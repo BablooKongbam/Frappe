@@ -1,0 +1,66 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240410_000002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-10 00:00:02.411782
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_000002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_000002-globizs_localhost-database.sql.gz 233.3KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240410_120001-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-10 12:00:01.824420
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_120001-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_120001-globizs_localhost-database.sql.gz 241.4KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240410_180002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-10 18:00:02.500471
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_180002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240410_180002-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240411_000002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-11 00:00:02.237975
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240411_000002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240411_000002-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240412_000001-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-12 00:00:01.896675
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240412_000001-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240412_000001-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240413_180002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-13 18:00:02.474460
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240413_180002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240413_180002-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240414_000002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-14 00:00:02.512775
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240414_000002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240414_000002-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240414_060001-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-04-14 06:00:02.097248
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240414_060001-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240414_060001-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240508_120002-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-05-08 12:00:02.798470
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240508_120002-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240508_120002-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240508_180001-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-05-08 18:00:01.966451
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240508_180001-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240508_180001-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_2156fc4dafe4611b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2156fc4dafe4611b | /usr/bin/gzip >> ./globizs.localhost/private/backups/20240514_180001-globizs_localhost-database.sql.gz
+
+Backup Summary for globizs.localhost at 2024-05-14 18:00:02.015879
+Config  : /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240514_180001-globizs_localhost-site_config_backup.json 127.0B
+Database: /home/babloo/globizs-bench/sites/globizs.localhost/private/backups/20240514_180001-globizs_localhost-database.sql.gz 242.5KiB
+Backup for Site globizs.localhost has been successfully completed
